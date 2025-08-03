@@ -32,19 +32,19 @@
                     class="flex items-center gap-2 px-4 py-3 hover:bg-blue-100 text-gray-700 font-medium transition rounded-md">
                     🛠 Perbaikan Unit
                 </a>
-                <a href="#"
+                <a href="/unit"
                     class="flex items-center gap-2 px-4 py-3 bg-blue-100 text-gray-700 font-medium transition rounded-md">
                     🔋 Status Unit
                 </a>
-                <a href="#"
+                <a href="/tools"
                     class="flex items-center gap-2 px-4 py-3 hover:bg-blue-100 text-gray-700 font-medium transition rounded-md">
                     🧰 Peralatan Pitstop
                 </a>
-                <a href="#"
+                <a href="/learning"
                     class="flex items-center gap-2 px-4 py-3 hover:bg-blue-100 text-gray-700 font-medium transition rounded-md">
                     📚 Learning Center
                 </a>
-                <a href="#"
+                <a href="/pengaturan"
                     class="flex items-center gap-2 px-4 py-3 hover:bg-blue-100 text-gray-700 font-medium transition rounded-md">
                     ⚙️ Pengaturan
                 </a>
@@ -191,7 +191,7 @@
                             <tbody class="text-gray-800">
                                 <tr class="hover:bg-gray-50">
                                     <td class="px-4 py-2 border whitespace-nowrap">
-                                        <img src="https://via.placeholder.com/60" alt="Unit Photo"
+                                        <img src="/img/dump%20truck.jpeg" alt="Unit Photo"
                                             class="w-14 h-14 object-cover rounded">
                                     </td>
                                     <td class="px-4 py-2 border whitespace-nowrap">DT1234</td>
@@ -218,7 +218,7 @@
 
                                 <tr class="hover:bg-gray-50">
                                     <td class="px-4 py-2 border whitespace-nowrap">
-                                        <img src="https://via.placeholder.com/60" alt="Unit Photo"
+                                        <img src="/img/dump%20truck.jpeg" alt="Unit Photo"
                                             class="w-14 h-14 object-cover rounded">
                                     </td>
                                     <td class="px-4 py-2 border whitespace-nowrap">DT2345</td>

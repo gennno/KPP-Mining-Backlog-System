@@ -35,3 +35,11 @@ Route::get('/tools', action: function () {
     return view('tools');
 });
 
+Route::get('/learning', action: function () {
+    return view('learning');
+});
+
+Route::get('/pengaturan', action: function () {
+    return view('pengaturan');
+});
+

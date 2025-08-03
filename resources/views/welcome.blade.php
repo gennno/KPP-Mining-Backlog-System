@@ -35,7 +35,7 @@
                 </label>
             </div>
 
-            <button type="submit"
+            <button href="/dashboard"
                 class="w-full bg-blue-600 text-white py-2 sm:py-2.5 rounded-lg text-sm sm:text-base font-semibold hover:bg-blue-700 transition duration-200">
                 Sign In
             </button>

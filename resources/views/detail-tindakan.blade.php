@@ -32,19 +32,19 @@
                     class="flex items-center gap-2 px-4 py-3 hover:bg-blue-100 text-gray-700 font-medium transition rounded-md">
                     🛠 Perbaikan Unit
                 </a>
-                <a href="#"
+                <a href="/unit"
                     class="flex items-center gap-2 px-4 py-3 hover:bg-blue-100 text-gray-700 font-medium transition rounded-md">
                     🔋 Status Unit
                 </a>
-                <a href="#"
+                <a href="/tools"
                     class="flex items-center gap-2 px-4 py-3 hover:bg-blue-100 text-gray-700 font-medium transition rounded-md">
                     🧰 Peralatan Pitstop
                 </a>
-                <a href="#"
+                <a href="/learning"
                     class="flex items-center gap-2 px-4 py-3 hover:bg-blue-100 text-gray-700 font-medium transition rounded-md">
                     📚 Learning Center
                 </a>
-                <a href="#"
+                <a href="/pengaturan"
                     class="flex items-center gap-2 px-4 py-3 hover:bg-blue-100 text-gray-700 font-medium transition rounded-md">
                     ⚙️ Pengaturan
                 </a>
@@ -197,7 +197,7 @@
                 <!-- Evidence -->
                 <div class="col-span-1 sm:col-span-2">
                     <label class="text-gray-500 text-sm mb-1">Evidence</label>
-                    <img src="https://via.placeholder.com/300x200" alt="Foto Evidence"
+                    <img src="/img/dump%20truck.jpeg" alt="Foto Evidence"
                         class="rounded-md border shadow max-w-xs">
                 </div>
             </div>

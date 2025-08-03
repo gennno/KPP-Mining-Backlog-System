@@ -18,8 +18,22 @@
 </head>
 
 <body class="bg-gray-100 text-gray-800 min-h-screen">
+        <!-- Loading Overlay -->
+<div id="page-loader"
+     class="fixed inset-0 bg-white z-50 flex items-center justify-center opacity-0 transition-opacity duration-300 pointer-events-none">
+    <div class="animate-spin rounded-full h-12 w-12 border-t-4 border-blue-500 border-solid"></div>
+</div>
     <div class="flex flex-col md:flex-row min-h-screen w-full">
         @yield('content')
     </div>
+
+<script>
+    window.addEventListener("beforeunload", function () {
+        const loader = document.getElementById("page-loader");
+        loader.classList.remove("opacity-0", "pointer-events-none");
+        loader.classList.add("opacity-100");
+    });
+</script>
+
 </body>
 </html>

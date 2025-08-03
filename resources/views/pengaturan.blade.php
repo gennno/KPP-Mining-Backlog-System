@@ -41,11 +41,11 @@
                     🧰 Peralatan Pitstop
                 </a>
                 <a href="/learning"
-                    class="flex items-center gap-2 px-4 py-3 bg-blue-100 text-gray-700 font-medium transition rounded-md">
+                    class="flex items-center gap-2 px-4 py-3 hover:bg-blue-100 text-gray-700 font-medium transition rounded-md">
                     📚 Learning Center
                 </a>
                 <a href="/pengaturan"
-                    class="flex items-center gap-2 px-4 py-3 hover:bg-blue-100 text-gray-700 font-medium transition rounded-md">
+                    class="flex items-center gap-2 px-4 py-3 bg-blue-100 text-gray-700 font-medium transition rounded-md">
                     ⚙️ Pengaturan
                 </a>
             </nav>
@@ -68,7 +68,7 @@
         <!-- Header -->
         <header class="p-4 sm:p-6 bg-white shadow-md w-full flex justify-between items-center">
             <div>
-                <h1 class="text-xl sm:text-2xl font-bold text-gray-800">📚 Learning Center</h1>
+                <h1 class="text-xl sm:text-2xl font-bold text-gray-800">⚙️ Pengaturan Akun</h1>
                 <p class="text-sm text-gray-500">Selamat datang, berikut statistik backlog Anda</p>
             </div>
 
@@ -99,51 +99,51 @@
             </div>
 
         </header>
+<main class="p-4 sm:p-6 flex-1 w-full max-w-3xl mx-auto space-y-6">
 
-<!-- Learning & Development Cards -->
-<main class="p-4 sm:p-6 flex-1 w-full space-y-6">
-    <div id="learningContainer" class="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-4 gap-6">
+    <form class="space-y-6 bg-white p-6 rounded-xl border border-gray-200 shadow">
 
-        <!-- Wheel Loader / Wheel Dozer Group -->
-        <a href="https://drive.google.com/drive/folders/1Z2yLL3VsgLIuM88WInrhITsT9KjC5HPS?usp=drive_link" target="_blank" class="block bg-white rounded-xl shadow hover:shadow-lg transition duration-300 overflow-hidden border border-gray-200">
-            <img src="/img/wheel%20loader.jpg" alt="Wheel Loader" class="w-full h-40 object-cover">
-            <div class="p-4">
-                <h3 class="text-lg font-bold text-gray-800">Wheel Loader / Wheel Dozer Group</h3>
-                <p class="text-sm text-gray-600 mt-1">Manual pelatihan dan panduan teknis untuk wheel loader dan dozer.</p>
+        <!-- Foto Profil -->
+        <div>
+            <label class="block text-sm font-medium text-gray-600 mb-1">Foto Profil</label>
+            <div class="flex items-center gap-4">
+                <img src="/img/engine.jpg" alt="Profile Picture" class="w-16 h-16 rounded-full object-cover border">
+                <input type="file" accept="image/*" class="text-sm">
             </div>
-        </a>
+        </div>
 
-        <!-- Engine Group -->
-        <a href="https://drive.google.com/drive/folders/1KtSIGJzeVmJP2SSoTgu32fz0zxdHPPZc?usp=drive_link" target="_blank" class="block bg-white rounded-xl shadow hover:shadow-lg transition duration-300 overflow-hidden border border-gray-200">
-            <img src="/img/engine.jpg" alt="Engine Group" class="w-full h-40 object-cover">
-            <div class="p-4">
-                <h3 class="text-lg font-bold text-gray-800">Engine Group</h3>
-                <p class="text-sm text-gray-600 mt-1">Dokumentasi dan pembelajaran mengenai sistem mesin unit berat.</p>
-            </div>
-        </a>
+        <!-- Nama -->
+        <div>
+            <label class="block text-sm font-medium text-gray-600 mb-1">Nama Lengkap</label>
+            <input type="text" class="w-full border rounded-md p-2" placeholder="Masukkan nama lengkap">
+        </div>
 
-        <!-- Dump Truck Group -->
-        <a href="https://drive.google.com/drive/folders/1BtzIuIkmUAZKYAWtNfzcoaWiwyIU6yoW?usp=drive_link" target="_blank" class="block bg-white rounded-xl shadow hover:shadow-lg transition duration-300 overflow-hidden border border-gray-200">
-            <img src="/img/dump%20truck.jpeg" alt="Dump Truck Group" class="w-full h-40 object-cover">
-            <div class="p-4">
-                <h3 class="text-lg font-bold text-gray-800">Dump Truck Group</h3>
-                <p class="text-sm text-gray-600 mt-1">Materi pelatihan operasional dan perawatan dump truck.</p>
-            </div>
-        </a>
+        <!-- Email -->
+        <div>
+            <label class="block text-sm font-medium text-gray-600 mb-1">Email</label>
+            <input type="email" class="w-full border rounded-md p-2" placeholder="Masukkan email aktif">
+        </div>
 
-        <!-- Motor Grader Group -->
-        <a href="https://drive.google.com/drive/folders/1JpjX62_a3IehrAWNJZ4QkifIboORuQ0w?usp=drive_link" target="_blank" class="block bg-white rounded-xl shadow hover:shadow-lg transition duration-300 overflow-hidden border border-gray-200">
-            <img src="/img/motor%20grader.png" alt="Motor Grader Group" class="w-full h-40 object-cover">
-            <div class="p-4">
-                <h3 class="text-lg font-bold text-gray-800">Motor Grader Group</h3>
-                <p class="text-sm text-gray-600 mt-1">Panduan teknis dan perawatan motor grader di lapangan.</p>
-            </div>
-        </a>
+        <!-- Ganti Password -->
+        <div>
+            <label class="block text-sm font-medium text-gray-600 mb-1">Password Baru</label>
+            <input type="password" class="w-full border rounded-md p-2" placeholder="Biarkan kosong jika tidak ingin mengubah">
+        </div>
 
-        <!-- Tambahkan card lainnya jika perlu -->
+        <div>
+            <label class="block text-sm font-medium text-gray-600 mb-1">Konfirmasi Password</label>
+            <input type="password" class="w-full border rounded-md p-2" placeholder="Ulangi password baru">
+        </div>
 
-    </div>
+        <!-- Tombol Simpan -->
+        <div class="flex justify-end">
+            <button type="submit" class="px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition">
+                Simpan Perubahan
+            </button>
+        </div>
+    </form>
 </main>
+
 
         <button id="backToTop" onclick="scrollToTop()" aria-label="Back to Top"
             class="fixed bottom-6 right-6 bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition-opacity duration-300 opacity-0 invisible z-50">
